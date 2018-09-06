@@ -25,14 +25,12 @@ public class UpdateBudget extends HttpServlet {
      */
     public UpdateBudget() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
@@ -45,7 +43,6 @@ public class UpdateBudget extends HttpServlet {
 			try {
 				throw new Exception("conn is null");
 			} catch (Exception e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}

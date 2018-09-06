@@ -28,7 +28,6 @@ public class Ad extends HttpServlet {
      */
     public Ad() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
